@@ -5,16 +5,22 @@ export default class PopUp extends Component {
   render() {
 
     return (
-      <Popup trigger={<button className="button" id="seeDetail"> </button>} modal>
+      <Popup trigger={<button className="button"> Open Modal </button>} modal>
         {close => (
           <div className="modal">
             <a className="close" onClick={close}>
               &times;
             </a>
+            <div className="header"> Russia </div>
             <div className="content">
               {' '}
-              <p>Country: Russia</p>
-             <p>Medals Won: 428</p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a nostrum.
+              Dolorem, repellat quidem ut, minima sint vel eveniet quibusdam voluptates
+              delectus doloremque, explicabo tempore dicta adipisci fugit amet dignissimos?
+          <br />
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sit
+              commodi beatae optio voluptatum sed eius cumque, delectus saepe repudiandae
+              explicabo nemo nam libero ad, doloribus, voluptas rem alias. Vitae?
         </div>
             <div className="actions">
               {/* <Popup
@@ -29,7 +35,7 @@ export default class PopUp extends Component {
                   sapiente! Laudantium, aperiam doloribus. Odit, aut.
             </span>
               </Popup> */}
-              <button id="seeMore" onClick={() => {
+              <button onClick={() => {
                 this.props.seeMore();
                 close();
               }}>See more</button>

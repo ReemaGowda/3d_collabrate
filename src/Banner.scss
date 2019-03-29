@@ -1,0 +1,33 @@
+.hero {
+    color: #ffffff;
+    font-size: 43px;
+    height: 470.3px;
+    width: 100%;
+    font-family: avenir;
+    background-color: #168cc6;
+
+    &__img {
+        margin: 111px 0 0 400px;
+    }
+
+    &__text {
+        margin:0 0 16px 92px;
+        height: 117px;
+    }
+
+    &__whitething {
+        background-color: #ffffff;
+        width: 180px;
+        height: 14px;
+        margin-left: 92px;
+    }
+}
+
+.slantthing {
+    background-color: #168cc6;
+    height:300px;
+    transform: skew(15deg,4deg);
+    width: 1100px;
+    margin-left: -88px;
+    margin-top: -54px;
+}

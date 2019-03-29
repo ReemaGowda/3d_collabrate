@@ -1,0 +1,37 @@
+
+
+.mapImage
+{
+  // background-image: url("/assets/BlankMap.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   
+}
+
+
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.imageBtn{
+  position: relative;
+}
+
+
+.btn{
+  position: absolute;
+  top: 210px;
+  left: 550px;
+  color: black;
+  font-size:1.3rem;
+}
+
+
+.russia{
+  position: absolute;
+  top: 152px;
+  left: 507px;
+}
+

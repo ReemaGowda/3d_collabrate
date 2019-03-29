@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+
+
 export default class Hero extends Component{
     render(){
         return(
@@ -8,8 +10,8 @@ export default class Hero extends Component{
                 <img src="./assets/BlankMap.png" alt="MApImage"></img>   
                 
             </div>
-            {/* <img src="./assets/Russia.png"className="russia"></img>
-            <div className="btn"><img src="./assets/google_maps_pin.png"></img></div> */}
+            <img src="./Russia.png"className="russia"></img>
+            <div className="btn"><img src="./assets/google_maps_pin.png"></img></div>
             </div>
         )
     }

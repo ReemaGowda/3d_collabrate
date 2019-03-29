@@ -1,0 +1,167 @@
+// .modal {
+//   font-size: 12px;
+// }
+// .modal > .header {
+//   width: 100%;
+//   border-bottom: 1px solid gray;
+//   font-size: 18px;
+//   text-align: center;
+//   padding: 5px;
+// }
+// .modal > .content {
+//   width: 100%;
+//   padding: 10px 5px;
+// }
+// .modal > .actions {
+//   width: 100%;
+//   padding: 10px 5px;
+//   margin: auto;
+//   text-align: center;
+// }
+// .modal > .close {
+//   cursor: pointer;
+//   position: absolute;
+//   display: block;
+//   padding: 2px 5px;
+//   line-height: 20px;
+//   right: -10px;
+//   top: -10px;
+//   font-size: 24px;
+//   background: #ffffff;
+//   border-radius: 18px;
+//   border: 1px solid #cfcece;
+// }
+
+.modal {
+ font-size: 25px;
+ font-family: avenir;
+}
+
+.modal > .actions {
+ padding: 10px 5px;
+ margin: auto;
+ text-align: center;
+}
+.modal > .close {
+ cursor: pointer;
+ position: absolute;
+ display: block;
+ padding: 2px 5px;
+ line-height: 20px;
+ right: -10px;
+ top: -10px;
+ font-size: 24px;
+ background: #ffffff;
+ border-radius: 18px;
+ border: 1px solid #cfcece;
+}
+
+.popup-content {
+ border-radius: 10px;
+ height: 154px;
+ width: 400px;
+
+ p{
+   margin:8px 0 0 8px;
+   font-weight: bold;
+ }
+}
+
+.viewmore {
+ font-size: 25px;
+ border: thick solid green;
+ border-radius: 4px;
+}
+
+.hero {
+  color: #ffffff;
+  font-size: 43px;
+  height: 470.3px;
+  width: 100%;
+  font-family: avenir;
+  background-color: #168cc6;
+
+  &__img {
+      margin: 111px 0 0 400px;
+  }
+
+  &__text {
+      margin:0 0 16px 92px;
+      height: 117px;
+  }
+
+  &__whitething {
+      background-color: #ffffff;
+      width: 180px;
+      height: 14px;
+      margin-left: 92px;
+  }
+}
+
+.slantthing {
+  background-color: #168cc6;
+  height:350px;
+  transform: skew(15deg,4deg);
+  width: 1600px;
+  margin-left: -88px;
+  margin-top: -60px;
+}
+
+
+
+.mapImage
+{
+  // background-image: url("/assets/BlankMap.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   
+}
+
+
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.imageBtn{
+  position: relative;
+}
+
+
+.btn{
+  position: absolute;
+  top: 210px;
+  left: 550px;
+  color: black;
+  font-size:1.3rem;
+}
+
+
+.russia{
+  position: absolute;
+  top: 152px;
+  left: 507px;
+}
+
+
+#seeDetail{
+  position: absolute;
+  top: 970px;
+  left: 700px;
+  background-color: red;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+}
+
+#seeMore{
+  background-color: cornflowerblue;
+  width: 100px;
+  height: 32px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
